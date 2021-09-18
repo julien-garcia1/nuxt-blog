@@ -1,12 +1,12 @@
 ---
-title: Mon premier article
+title: Mon troisième article
 description: Apprendre NuxtJs et VueJs
-img: first-blog-post.jpg
+img: third-blog-post.jpg
 alt: image de mon article
 ---
-# My first blog post
+# My third blog post
 
-Welcome to my first blog post using content module
+Welcome to my third blog post using content module
 
 ## This is a heading
 
