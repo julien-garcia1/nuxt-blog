@@ -19,6 +19,10 @@ export default {
     ]
   },
 
+  content: {
+    nestedProperties: ['author.name']
+  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],

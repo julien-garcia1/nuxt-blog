@@ -15,11 +15,12 @@
       </ul>
     </nav>
 
-    <!-- <nuxt-content :document="article" /> -->
-
-    <author :author="author" />
+    <author :author="article" />
 
     <prev-next :prev="prev" :next="next" />
+    <div>
+      <nuxt-link :to="'/'">Home page</nuxt-link>
+    </div>
   </article>
 </template>
 <script>
@@ -36,15 +37,15 @@
       return { article, prev, next }
     },
 
-    data() {
-      return {
-        author: {
-          name: 'Benjamin',
-          bio: 'All about Benjamin',
-          image: 'https://source.unsplash.com/random'
-        }
-      }
-    },
+    // data() {
+    //   return {
+    //     author: {
+    //       name: 'Benjamin',
+    //       bio: 'All about Benjamin',
+    //       image: 'https://source.unsplash.com/random'
+    //     }
+    //   }
+    // },
 
     methods: {
       formatDate(date) {

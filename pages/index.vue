@@ -1,5 +1,6 @@
 <template>
   <div>
+    <add-search-input />
     <ul v-for="article in articles" :key="article.slug">
       <li>
         <nuxt-link :to="{ name: 'blog-slug', params: { slug: article.slug} }">{{ article.title}}</nuxt-link>

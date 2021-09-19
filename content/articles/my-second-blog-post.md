@@ -3,6 +3,9 @@ title: Mon deuxième article
 description: Apprendre NuxtJs et VueJs
 img: second-blog-post.jpg
 alt: image de mon article
+name: Benjamin,
+bio: All about Benjamin,
+image: https://source.unsplash.com/random
 ---
 # My second blog post
 
